@@ -4,9 +4,9 @@ import com.example.mdrawz.*
 
 class PlatformPrinter {
     private val printer = Printer()
-    private val platform = Platform()
+//    private val platform = Platform()
 
     fun printPlatform() {
-        printer.print(platform)
+//        printer.print(platform) ToDo: figure out why commonMain isn't resolved
     }
 }
