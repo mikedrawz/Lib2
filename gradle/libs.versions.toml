@@ -1,0 +1,10 @@
+[versions]
+jvm-target = "1.8"
+kotlin = "1.7.20"
+lib1 = "1.0-SNAPSHOT"
+
+[libraries]
+lib1 = { module = "com.example.mdrawz:Lib1", version.ref = "lib1"}
+
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
